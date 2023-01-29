@@ -1,8 +1,7 @@
 
-
 # Nyka
 
-##  https://secretive-form-5947-umber.vercel.app/
+#####  https://secretive-form-5947-umber.vercel.app/
 
 ## About the website
 
@@ -40,6 +39,4 @@ Cart Page will show the number the products in the cart, Your Individual product
 
 You can Just click on 'Proceed to buy' For Your Order
 
-
 ![Pament Option](./image/payment-nyka.png)
-
