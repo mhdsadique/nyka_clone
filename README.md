@@ -1,5 +1,4 @@
 
-import a from ./image/landing-nyka.png
 # Nyka
 
 ###  https://secretive-form-5947-umber.vercel.app/
@@ -24,7 +23,7 @@ Nyka is an e-commerce website where all types of Skincare, Eyecare, Hairstyle an
 ## More info the Project (Nyka)
 
 ![Nyka_LandingPage]
-<img src={a}alt='land'/>
+<img src={./image/landing-nyka.png}alt='land'/>
 This is the Landing Page of our project. 
 
 ***********************************************************************************************************************************************************************
