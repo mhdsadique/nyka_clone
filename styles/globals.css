@@ -1,0 +1,213 @@
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-glow: conic-gradient(
+    from 180deg at 50% 50%,
+    #16abff33 0deg,
+    #0885ff33 55deg,
+    #54d6ff33 120deg,
+    #0071ff33 160deg,
+    transparent 360deg
+  );
+  --secondary-glow: radial-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+
+  --tile-start-rgb: 239, 245, 249;
+  --tile-end-rgb: 228, 232, 233;
+  --tile-border: conic-gradient(
+    #00000080,
+    #00000040,
+    #00000030,
+    #00000020,
+    #00000010,
+    #00000010,
+    #00000080
+  );
+
+  --callout-rgb: 238, 240, 241;
+  --callout-border-rgb: 172, 175, 176;
+  --card-rgb: 180, 185, 188;
+  --card-border-rgb: 131, 134, 135;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+
+    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+    --secondary-glow: linear-gradient(
+      to bottom right,
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0),
+      rgba(1, 65, 255, 0.3)
+    );
+
+    --tile-start-rgb: 2, 13, 46;
+    --tile-end-rgb: 2, 5, 19;
+    --tile-border: conic-gradient(
+      #ffffff80,
+      #ffffff40,
+      #ffffff30,
+      #ffffff20,
+      #ffffff10,
+      #ffffff10,
+      #ffffff80
+    );
+
+    --callout-rgb: 20, 20, 20;
+    --callout-border-rgb: 108, 108, 108;
+    --card-rgb: 100, 100, 100;
+    --card-border-rgb: 200, 200, 200;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+  
+  .d {
+      float: right;
+      overflow: hidden;
+      
+  }
+  .d .d-btn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: black;
+      padding: 14px 16px;
+      background: inherit;
+  
+  }
+  .navbar a:hover, .d:hover .d-btn {
+      background: white;
+      color: rgb(255,143,186);
+  }
+  .d-content {
+      display: none;
+      position: fixed;
+      background: white;
+      width: 50%;
+  
+      left: -0.5;
+      /*right: 10;*/
+      margin:  auto;
+      z-index: 999;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      border-radius: 0 0 5px 5px;
+    
+  }
+  
+  .b-content {
+      display: none;
+      position: fixed;
+      background: white;
+      width: 65%;
+      /*left: 1;*/
+      right: 1;
+      margin:4px auto;
+      z-index: 10;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      border-radius: 0 0 5px 5px;
+    
+  }
+  .d:hover .d-content {
+      display: flex;
+  }
+  .column {
+      float: left;
+      display: block;
+      width: auto;
+      padding: 10px;	
+      background: white;
+  
+  }
+  .column a {
+      display: flex;
+      float: none;
+      color: black;
+      text-align: left;
+      background: white;
+  
+  }
+  .column h3 {
+      color: black;
+      padding: 10px 10px 0px 10px;
+      background: white;
+  
+  }
+  .column  p {
+      color: rgb(139, 128, 128);
+      padding:0 10px;
+      font-size: 13px;
+      font-weight: 100;
+      background: white;
+  
+  }
+  .column a:hover {
+      color:palevioletred;
+      /*background: #373737;*/
+      background: white;
+  
+  }
+  .row:after {
+      content: '';
+      display: block;
+      clear: both;
+  }
+  .bestS{
+      animation: blink 2s linear infinite;
+  }
+  @keyframes blink{
+      0%{opacity: 0;}
+      50%{opacity: .5;}
+      100%{opacity: 1;}
+  }
+  @media(max-width: 650px){
+      .column {
+          width: 100%;
+          height: auto;
+      }
+  }

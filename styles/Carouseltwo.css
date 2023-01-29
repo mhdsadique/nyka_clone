@@ -1,0 +1,51 @@
+.Carouseltwo {
+    width: 90%;
+    margin: 4% auto;
+  }
+  
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+  
+  .card {
+    border: 1px solid #fff;
+    background: black;
+    border-radius: 8px;
+    overflow: hidden;
+    height: auto;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .card-top h1 {
+    font-size: 0.9rem;
+    margin: 20px;
+  }
+  
+  .card-top > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background: black;
+  }
+  
+  .card-bottom {
+    margin: 10px 20px;
+  }
+  
+  .category {
+    position: relative;
+  }
+  .category::before {
+    content: '';
+    background: rgb(255, 61, 61);
+    position: absolute;
+    color: black;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    height: 2px;
+  }

@@ -1,0 +1,171 @@
+body{
+    background-color: white;
+}
+.sndbanner{
+    margin: 3rem 5%;
+    border-radius: 10px;
+    width: 90%; 
+}
+.third-div{
+    display: flex;
+    gap: 1%;
+    width: 90%;
+    margin: auto;
+
+}
+.third-div img{
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+}
+.homepage-cards{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2%;
+    justify-content: space-evenly;
+}
+.top-brands{
+    width: 85%;
+    margin: 3rem auto;
+    
+}
+.top-brands img{
+    width: 100%;
+    border-radius: 10px;
+}
+.top-brands h1{
+    font-size: 30px;
+}
+.home-subcard{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 15px;
+}
+.home-subcard img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.home-subcard div{
+    padding: 0 20px;
+}
+.home-subcard p{
+    font-size: 20px;
+    
+    color:#5C6571;
+}
+.home-subcard h3{
+    font-size: 25px;
+    color: #e80071;
+    
+}
+
+.crs-two{
+    display: flex;
+    width: 90%;
+    overflow: auto;
+    margin: auto;
+    gap: 15%;
+}
+.crs-two img{
+    width: 120%;
+}
+.pink-back{
+    background-color: #fff6f9;
+    height:800px;
+}
+
+.last-sub{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: space-around;
+}
+.last-card{
+    width: 30%;
+    margin-bottom: 3%;
+    
+}
+.last-card img{
+    width: 100%;
+}
+.sdbanner{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.featured{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-evenly;
+    gap: 2%;
+    
+}
+.featured img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.feat-sub-card{
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.feat-sub-card div{
+    width: 90%;
+    padding: 0 5% 0 5%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.feat-sub-card p{
+   overflow: hidden;
+    color: #5C6571;
+    
+}
+.feat-sub-card h3{
+    color: black;
+    font-size: 100%;
+    overflow: hidden;
+}
+
+.aquad{
+    width: 100%;
+    margin: auto;
+    background-color: #e5f2f4;
+}
+
+.extra-brands{
+    width: 90%;
+    margin: 2rem auto;
+    font-size: 30px;
+}
+.extra-cards{
+    display: flex;
+    gap: 2%;
+    
+    width: 100%;
+}
+.extra-cards img{
+    border-radius: 15px 15px 0 0;
+    width: 50%;
+}
+
+.tp-img{
+    border-radius: 15px;
+}
+.tp-subdiv{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.tp-subdiv img{
+    width: 48%;
+    border-radius: 15px;
+}
+
+.discover-more{
+    display: flex;
+    justify-content: space-between;
+}
+.discover-card{
+    width: 49%;
+}

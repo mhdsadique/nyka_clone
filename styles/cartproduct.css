@@ -1,0 +1,43 @@
+.cart-main{
+    display: flex;
+    width: 80%;
+    gap: 2%;
+    margin: 1rem auto;
+    padding: 0 2%;
+}
+.cart-img{
+    width: 300px;
+    border-radius: 15px;
+}
+.cart-img img{
+    border-radius: 15px;
+    width: 100%;
+}
+.cart-details{
+    padding: 2%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.quant{
+    font-size: 15px;
+    color: orange;
+    
+}
+.quant-btn{
+    width: 30px;
+    height: 30px;
+    margin: 0 1rem;
+    border-radius: 10px;
+    background-color: wheat;
+}
+.rating{
+    color: darkred;
+
+}
+.rating span{
+    font-size: 15px;
+    color: white;
+}

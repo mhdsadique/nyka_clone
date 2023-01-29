@@ -1,0 +1,29 @@
+.row{
+    padding-top: 7rem;
+
+}
+.product{
+    overflow: hidden;
+    width: 255px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid wheat;
+    box-shadow: 0 3px 24px rgb(0 0 0 / 4%);
+    border-radius: 8px;
+}
+.product-thumb img{
+    width: 100%;
+    height: auto;
+}
+@media screen and(max-width:669px) {
+    .product{
+        width: 335px;
+    }
+
+}
+@media screen and(max-width:350px) {
+    .product{
+        width: 355px;
+    }
+    
+}

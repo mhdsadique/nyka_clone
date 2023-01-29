@@ -1,0 +1,10 @@
+.buttonCls {
+    background-color: "white";
+    height: "100%";
+    width: "90%";
+    color:"white";
+}
+
+.buttonCls:hover {
+    background-color: "red";
+}
