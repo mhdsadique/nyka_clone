@@ -20,7 +20,7 @@ Nyka is an e-commerce website where all types of Skincare, Eyecare, Hairstyle an
 - Payment
 - Admin can add,
 ## More info the Project (Nyka)
-![Nyka_LandingPage](<img src={./image/landing-nyka.png} alt='aa'/>)
+![Nyka_LandingPage](https://www.legalraasta.com/blog/wp-content/uploads/2019/04/nykaa-e1555654063220-800x386.jpg)
 ***********************************************************************************************************************************************************************
 ![Nyka_Login_Signup](./image/login-nyka.png)
 ***********************************************************************************************************************************************************************
