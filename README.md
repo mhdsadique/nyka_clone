@@ -20,7 +20,8 @@ Nyka is an e-commerce website where all types of Skincare, Eyecare, Hairstyle an
 - Payment
 - Admin can add,
 ## More info the Project (Nyka)
-![Nyka_LandingPage](./image/landing-nyka.png)
+![Nyka_LandingPage]
+<img src={./image/landing-nyka.png} alt='aa'/>
 ***********************************************************************************************************************************************************************
 ![Nyka_Login_Signup](./image/login-nyka.png)
 ***********************************************************************************************************************************************************************
