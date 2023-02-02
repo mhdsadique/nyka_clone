@@ -5,8 +5,7 @@
 
 ## About the website
 
-Nyka is an e-commerce website where all types of Skincare, Eyecare, Hairstyle and many more related products are available for men, women and kids.
-
+Nyka is Buy cosmetics & beauty products online from Nykaa, the online shopping beauty store. Browse makeup, health products & more from top beauty brands.
 ## Technology
 **Client** - Next.js, Redux, Chakra UI
 
