@@ -7,7 +7,7 @@
 
 Nyka is Buy cosmetics & beauty products online from Nykaa, the online shopping beauty store. Browse makeup, health products & more from top beauty brands.
 ## Technology
-**Client** - Next.js, Redux, Chakra UI
+**Client** - Next.js,React, Redux, Chakra UI
 
 **Server** - API, Vercel
 
